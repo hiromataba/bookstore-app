@@ -5,7 +5,7 @@ const Nav = ({ title, routes }) => (
   <nav>
     <Link to="/">{title}</Link>
     <ul>
-      {routes.map(({ name, path }) => (
+      {routes && routes.map(({ name, path }) => (
         <li key={path}>
           <NavLink exact to={path}>{name}</NavLink>
         </li>
