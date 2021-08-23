@@ -4,32 +4,22 @@ const REMOVE_BOOK = 'bookStore/books/REMOVE_BOOK';
 const initialState = [
   {
     id: '1',
-    category: 'Action',
-    title: 'The Hunger Games',
-    author: 'Suzanne Collins',
+    category: 'Electronics',
+    title: 'Capacitors',
+    author: 'Jaddix Mugabo',
     progress: {
-      currentChapter: 'Chapter 17',
+      currentChapter: 'Chapter 22',
       completed: '64',
     },
   },
   {
     id: '2',
-    category: 'Science Fiction',
-    title: 'Dune',
-    author: 'Frank Herbert',
+    category: 'Artificial Intelligence',
+    title: 'Deep Learning',
+    author: 'Julien Bahati',
     progress: {
-      currentChapter: 'Chapter 3: "A Lesson Learned"',
+      currentChapter: 'Chapter 5',
       completed: '8',
-    },
-  },
-  {
-    id: '3',
-    category: 'Economy',
-    title: 'Capital in the Twenty-First Century',
-    author: 'Suzanne Collins',
-    progress: {
-      currentChapter: 'Introduction',
-      completed: '0',
     },
   },
 ];
