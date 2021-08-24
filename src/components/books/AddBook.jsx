@@ -3,7 +3,7 @@ import { nanoid } from 'nanoid';
 import { useDispatch } from 'react-redux';
 import { addBook } from '../../redux/books/books';
 
-const categories = ['Electronics', 'Telecommunications', 'construction'];
+const categories = ['Electronics', 'Law', 'Drawing'];
 
 const AddBook = () => {
   const dispatch = useDispatch();
