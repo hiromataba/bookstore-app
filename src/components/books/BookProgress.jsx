@@ -9,7 +9,7 @@ const BookProgress = ({ progress }) => {
         <p>Completed</p>
       </div>
       <div>
-        <p>CURRENT CHAPTER</p>
+        <p>Current Chapter</p>
         <p>{currentChapter}</p>
       </div>
     </div>
