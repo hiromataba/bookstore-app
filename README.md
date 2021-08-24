@@ -9,7 +9,6 @@ This project will lay foundations for the Bookstore website. we will create a Re
 - ReactJS
 - Css
 
-
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
@@ -53,7 +52,7 @@ Contributions, issues, and feature requests are welcome!
 
 ## Show your support
 
-Give a ⭐️ if you like this project! ❤️ ❤️ ❤️ 
+Give a ⭐️ if you like this project! ❤️ ❤️ ❤️
 
 ## Acknowledgments
 
