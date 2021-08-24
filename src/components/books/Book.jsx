@@ -12,7 +12,7 @@ const Book = ({ book }) => {
       <div>
         <div>
           <h4>{category}</h4>
-          <h2>{title}</h2>
+          <h3>{title}</h3>
           <h6>{author}</h6>
         </div>
         <Progress progress={progress} />
