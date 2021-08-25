@@ -5,26 +5,21 @@ const Nav = ({ title, routes }) => (
   <nav>
     <Link to="/">{title}</Link>
     <ul>
-      {routes
-        && routes.map(({ name, path }) => (
-          <li key={path}>
-            <NavLink exact to={path}>
-              {name}
-            </NavLink>
-          </li>
-        ))}
+      {routes.map(({ name, path }) => (
+        <li key={path}>
+          <NavLink exact to={path}>{name}</NavLink>
+        </li>
+      ))}
     </ul>
   </nav>
 );
 
 Nav.propTypes = {
   title: PropTypes.string.isRequired,
-  routes: PropTypes.arrayOf(
-    PropTypes.shape({
-      path: PropTypes.string.isRequired,
-      name: PropTypes.string.isRequired,
-    }),
-  ).isRequired,
+  routes: PropTypes.arrayOf(PropTypes.shape({
+    path: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+  })).isRequired,
 };
 
 export default Nav;
