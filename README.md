@@ -2,9 +2,9 @@
 
 # Bookstore
 
-![Bookstore](https://user-images.githubusercontent.com/75126481/130981995-ded444b5-ee9e-4f77-bf2d-81ec1293503a.png)
-
 This project will lay foundations for the Bookstore website. we will create a React and Redux app. we will structure the files using the "feature folder" approach. we will also set up routing using React Router.
+
+![Bookstore](https://user-images.githubusercontent.com/75126481/130981995-ded444b5-ee9e-4f77-bf2d-81ec1293503a.png)
 
 ## Built With
 
