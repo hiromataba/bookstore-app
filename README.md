@@ -2,7 +2,8 @@
 
 # Bookstore
 
-This project will lay foundations for the Bookstore website. we will create a React and Redux app. we will structure the files using the "Feature folder" approach. we will also set up routing using React Router.
+This project will lay foundations for the Bookstore website.
+we will create a React and Redux app. we will structure the files using the "Feature folder" approach. we will also set up routing using React Router.
 
 ![bookstore](https://user-images.githubusercontent.com/75126481/131029317-e9c90fa8-5475-40fb-a63c-1b2c5e98d75a.png)
 
